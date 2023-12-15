@@ -29,6 +29,7 @@ import com.google.ar.core.Plane
 import io.github.sceneview.ar.ARScene
 import io.github.sceneview.ar.arcore.getUpdatedPlanes
 import io.github.sceneview.ar.node.AnchorNode
+import io.github.sceneview.math.Position
 import io.github.sceneview.node.ModelNode
 import io.github.sceneview.rememberEngine
 import io.github.sceneview.rememberModelLoader
@@ -272,7 +273,10 @@ fun GreetingPreview() {
 }
 
 //Model
-private const val kModelFile = "https://sceneview.github.io/assets/models/DamagedHelmet.glb"
+private const val kModelFile= "https://sceneview.github.io/assets/models/DamagedHelmet.glb"
+private const val kModelFile2= "https://github.com/CodeSistency/ArApp_android/tree/main/app/assets/models/monumento_a_simon_bolivar.glb"
+
+
 
 @Composable
 fun ARComposable() {
